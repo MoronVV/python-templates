@@ -4,7 +4,7 @@ Flask app
 from flask import Flask
 
 from app import logger
-# from app.extensions import admin, db, migrate
+# from app.extensions import extension
 from app.views import views
 
 # logger
@@ -20,5 +20,6 @@ def create_app(config='config.default'):
     app.config.from_pyfile('config.py', silent=True)
 
     # init extensions
+    # extension.init_app(app)
 
     return app
