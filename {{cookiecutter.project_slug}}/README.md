@@ -2,9 +2,8 @@
 Project description
 
 ## Local run
-1. `pip install -r app/requirements.txt`
-1. `cd web/`
-1. `export PYTHONPATH=.`
+1. `cd app/`
+1. `pip install -r requirements.txt`
 1. `python main.py`
 
 ## Run in container
