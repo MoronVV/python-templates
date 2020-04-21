@@ -1,3 +1,4 @@
 {
-    "project_name": "template_project"
+    "project_name": "Template Project",
+    "_extensions": ["cookiecutter.extensions.SlugifyExtension"]
 }  
