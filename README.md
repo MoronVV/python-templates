@@ -1,4 +1,4 @@
-# {{coockiecutter.project_name}}
+# {{cookiecutter.project_name}}
 Project description
 
 ## Local run
