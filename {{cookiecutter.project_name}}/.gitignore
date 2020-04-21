@@ -1,0 +1,10 @@
+Session.vim
+.vim
+.python-version
+
+instance/
+
+__pycache__
+.mypy_cache
+
+*.log
